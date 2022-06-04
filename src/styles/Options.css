@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+}
+
+.card-options {
+  position: relative;
+}
+
+.card-options figure {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.card-options figure:hover {
+  cursor: pointer;
+  background-color: #393A3B;
+}
+

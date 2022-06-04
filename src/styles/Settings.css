@@ -1,0 +1,25 @@
+hr {
+  margin: 7px;
+  opacity: 0.2;
+}
+
+.settings {
+  position: absolute;
+  width: 344px;
+  bottom: -487px;
+  left: -305px;
+  background-color: #242526;
+  padding: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 5px 20px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 5px 20px 5px rgba(0, 0, 0, 0.3 );
+  visibility: hidden;
+}
+
+.settings.active {
+  visibility: visible;
+}
+
+
+
+

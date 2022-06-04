@@ -1,0 +1,15 @@
+img {
+  width: 100%;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  background-color: #242526;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

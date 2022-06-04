@@ -1,0 +1,25 @@
+
+.settings-option {
+  color: #e4e6eb;
+  text-decoration: none;
+  display: flex;
+  align-items:center;
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.settings-option:hover {
+  background-color: #3A3B3C;
+}
+
+.settings-icon {
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.settings-option span {
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: lighter;
+}
