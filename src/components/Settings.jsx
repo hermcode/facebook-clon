@@ -8,7 +8,7 @@ import SettingsOption from './SettingsOption';
 
 import '../styles/Settings.css'
 
-const Settings = ({showSettings, handleShowSettings}) => {
+const Settings = ({showSettings, username}) => {
   return (
     <div className={ showSettings ? 'settings active': 'settings'}>
       <ul>
@@ -38,12 +38,12 @@ const Settings = ({showSettings, handleShowSettings}) => {
         />
         <SettingsOption 
           Icon={BsClock}
-          title='Ocultar a AF1 "Afición Fórmula 1" durante 30 días'
+          title={`Ocultar a ${username} durante 30 días`}
           description='Dejar de ver publicaciones temporalmente.'
         />
         <SettingsOption 
           Icon={AiOutlineUserDelete}
-          title='Dejar de seguir a Velocidad al limite'
+          title={`Dejar de seguir a ${username}`}
           description='Dejar de ver publicaciones de esta pagina.'
         />
         <SettingsOption 

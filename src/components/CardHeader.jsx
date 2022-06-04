@@ -5,11 +5,17 @@ import OwnerData from './OwnerData';
 import '../styles/CardHeader.css'
 import Options from './Options';
 
-const CardHeader = () => {
+const CardHeader = ({ post }) => {
+
+  const { username, pp, date } = post
   return (
     <div className='card-header'>
-      <OwnerData />
-      <Options />
+      <OwnerData 
+        username={username}
+        pp={pp}
+        date={date}
+      />
+      <Options username={username} />
     </div>
   )
 }

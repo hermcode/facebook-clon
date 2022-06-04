@@ -4,7 +4,7 @@ import { BiDotsHorizontalRounded } from 'react-icons/bi';
 import '../styles/Options.css'
 import Settings from './Settings';
 
-const Options = () => {
+const Options = ({username}) => {
 
   const [showSettings, setShowSettings] = useState(false)
 
@@ -14,7 +14,7 @@ const Options = () => {
       <figure onClick={handleShowSettings}>
         <BiDotsHorizontalRounded />
       </figure>
-      <Settings showSettings={showSettings} />
+      <Settings showSettings={showSettings} username={username} />
     </div>
   )
 }
