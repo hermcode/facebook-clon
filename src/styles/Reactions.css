@@ -1,0 +1,24 @@
+.reactions {
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+
+.reactions p {
+  margin-left: 8px;
+}
+
+.reactions-icons {
+  display: flex;
+}
+
+.reactions-icons figure {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  border: 3px solid #242526;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-right: -4px;
+}

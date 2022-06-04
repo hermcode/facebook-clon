@@ -1,0 +1,22 @@
+.comments-section {
+  padding: 0 16px;
+}
+
+.comments-hr {
+  margin: 2px 0 12px;
+}
+
+.comments-form {
+  margin-bottom: 12px;
+}
+
+.comments-form input {
+  width: 100%;
+  background-color: #3A3B3C;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: #e4e6eb;
+  border-radius: 15px;
+}
